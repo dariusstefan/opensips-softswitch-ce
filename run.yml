@@ -1,0 +1,9 @@
+---
+logging:
+  controller:
+    level: DEBUG
+#    console: true
+tests:
+  - sipssert
+os:
+  - ubuntu-latest
