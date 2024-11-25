@@ -37,6 +37,12 @@ jobs:
       with:
         sipssert-repo: OpenSIPS/SIPSsert
 
+    - name: Debug Test Setup
+      run: |
+        echo "Listing directory contents:"
+        ls -la
+        ls -la sipssert-tests/
+
     - name: Run Test
       uses: OpenSIPS/SIPssert/.github/actions/Run_Tests@main
       with:
